@@ -1,0 +1,1428 @@
+{
+    "data": {
+        "stockQuery": [
+            {
+                "index": 12167,
+                "timestamp": 1515339441779,
+                "stocks": {
+                    "NASDAQ": 5.78797216268927e-197,
+                    "CAC40": 8.742281146652692e-172
+                }
+            },
+            {
+                "index": 12168,
+                "timestamp": 1515339442785,
+                "stocks": {
+                    "NASDAQ": 5.801971771874665e-197,
+                    "CAC40": 8.714249585629471e-172
+                }
+            },
+            {
+                "index": 12169,
+                "timestamp": 1515339443787,
+                "stocks": {
+                    "NASDAQ": 3.988796304862257e-197,
+                    "CAC40": 9.251466570097316e-172
+                }
+            },
+            {
+                "index": 12170,
+                "timestamp": 1515339444787,
+                "stocks": {
+                    "NASDAQ": 3.774395328601171e-197,
+                    "CAC40": 9.222649662310335e-172
+                }
+            },
+            {
+                "index": 12171,
+                "timestamp": 1515339445789,
+                "stocks": {
+                    "NASDAQ": 4.3329674111421297e-197,
+                    "CAC40": 9.160337460729692e-172
+                }
+            },
+            {
+                "index": 12172,
+                "timestamp": 1515339446790,
+                "stocks": {
+                    "NASDAQ": 4.336115310112051e-197,
+                    "CAC40": 1.0416356994693043e-171
+                }
+            },
+            {
+                "index": 12173,
+                "timestamp": 1515339447792,
+                "stocks": {
+                    "NASDAQ": 4.3361155794091886e-197,
+                    "CAC40": 5.470552027173325e-172
+                }
+            },
+            {
+                "index": 12174,
+                "timestamp": 1515339448793,
+                "stocks": {
+                    "NASDAQ": 3.9672899765734944e-197,
+                    "CAC40": 5.469632583502975e-172
+                }
+            },
+            {
+                "index": 12175,
+                "timestamp": 1515339449794,
+                "stocks": {
+                    "NASDAQ": 3.9313584210950225e-197,
+                    "CAC40": 5.53287091502923e-172
+                }
+            },
+            {
+                "index": 12176,
+                "timestamp": 1515339450800,
+                "stocks": {
+                    "NASDAQ": 3.9312402199539334e-197,
+                    "CAC40": 5.532868643938259e-172
+                }
+            },
+            {
+                "index": 12177,
+                "timestamp": 1515339451805,
+                "stocks": {
+                    "NASDAQ": 3.965353553834748e-197,
+                    "CAC40": 5.185012976984109e-172
+                }
+            },
+            {
+                "index": 12178,
+                "timestamp": 1515339452810,
+                "stocks": {
+                    "NASDAQ": 3.965535367809001e-197,
+                    "CAC40": 5.293767709411111e-172
+                }
+            },
+            {
+                "index": 12179,
+                "timestamp": 1515339453815,
+                "stocks": {
+                    "NASDAQ": 3.736799227860246e-197,
+                    "CAC40": 6.025766199728921e-172
+                }
+            },
+            {
+                "index": 12180,
+                "timestamp": 1515339454819,
+                "stocks": {
+                    "NASDAQ": 3.7365450160825345e-197,
+                    "CAC40": 6.017368268627938e-172
+                }
+            },
+            {
+                "index": 12181,
+                "timestamp": 1515339455821,
+                "stocks": {
+                    "NASDAQ": 5.321239628185917e-197,
+                    "CAC40": 6.05704843560668e-172
+                }
+            },
+            {
+                "index": 12182,
+                "timestamp": 1515339456821,
+                "stocks": {
+                    "NASDAQ": 4.557106244521031e-197,
+                    "CAC40": 6.049008518588782e-172
+                }
+            },
+            {
+                "index": 12183,
+                "timestamp": 1515339457821,
+                "stocks": {
+                    "NASDAQ": 3.508465915004975e-197,
+                    "CAC40": 6.306756150298888e-172
+                }
+            },
+            {
+                "index": 12184,
+                "timestamp": 1515339458822,
+                "stocks": {
+                    "NASDAQ": 3.5354671138166895e-197,
+                    "CAC40": 6.223127686854582e-172
+                }
+            },
+            {
+                "index": 12185,
+                "timestamp": 1515339459826,
+                "stocks": {
+                    "NASDAQ": 3.535402508218732e-197,
+                    "CAC40": 6.22324384977687e-172
+                }
+            },
+            {
+                "index": 12186,
+                "timestamp": 1515339460826,
+                "stocks": {
+                    "NASDAQ": 3.513387432786022e-197,
+                    "CAC40": 5.637583003305798e-172
+                }
+            }
+        ]
+    },
+    "extensions": {
+        "tracing": {
+            "version": 1,
+            "startTime": "2018-01-07T15:37:41.525Z",
+            "endTime": "2018-01-07T15:37:41.532Z",
+            "duration": 6968163,
+            "execution": {
+                "resolvers": [
+                    {
+                        "path": [
+                            "stockQuery"
+                        ],
+                        "parentType": "Query",
+                        "fieldName": "stockQuery",
+                        "returnType": "[ExchangeData]",
+                        "startOffset": 70802,
+                        "duration": 4718024
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            0,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 4866749,
+                        "duration": 14256
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            0,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 4904561,
+                        "duration": 5560
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            0,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 4921725,
+                        "duration": 3444
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            0,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 4948806,
+                        "duration": 5778
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            0,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 4969803,
+                        "duration": 4590
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            1,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5004485,
+                        "duration": 4357
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            1,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5018803,
+                        "duration": 8954
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            1,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5037777,
+                        "duration": 3089
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            1,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5056622,
+                        "duration": 3451
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            1,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5074236,
+                        "duration": 4289
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            2,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5106284,
+                        "duration": 4395
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            2,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5120139,
+                        "duration": 2691
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            2,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5137343,
+                        "duration": 3373
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            2,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5159787,
+                        "duration": 4209
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            2,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5172393,
+                        "duration": 8281
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            3,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5209302,
+                        "duration": 4563
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            3,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5223592,
+                        "duration": 3148
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            3,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5239877,
+                        "duration": 3913
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            3,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5262217,
+                        "duration": 3697
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            3,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5273881,
+                        "duration": 3295
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            4,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5304139,
+                        "duration": 9641
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            4,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5324864,
+                        "duration": 3422
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            4,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5341329,
+                        "duration": 4670
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            4,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5365952,
+                        "duration": 4718
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            4,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5379989,
+                        "duration": 3154
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            5,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5428415,
+                        "duration": 4740
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            5,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5449314,
+                        "duration": 4509
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            5,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5461913,
+                        "duration": 7988
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            5,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5485845,
+                        "duration": 5655
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            5,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5507303,
+                        "duration": 4060
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            6,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5539306,
+                        "duration": 4366
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            6,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5557471,
+                        "duration": 4174
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            6,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5571306,
+                        "duration": 3080
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            6,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5594089,
+                        "duration": 3898
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            6,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5611346,
+                        "duration": 3860
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            7,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5643914,
+                        "duration": 4487
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            7,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5657741,
+                        "duration": 7862
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            7,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5675629,
+                        "duration": 3178
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            7,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5697482,
+                        "duration": 4055
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            7,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5710046,
+                        "duration": 8658
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            8,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5745106,
+                        "duration": 4363
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            8,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5758884,
+                        "duration": 2871
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            8,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5774599,
+                        "duration": 4390
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            8,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5797766,
+                        "duration": 4107
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            8,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5810402,
+                        "duration": 7924
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            9,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5844554,
+                        "duration": 4735
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            9,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5858962,
+                        "duration": 2830
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            9,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5874350,
+                        "duration": 3730
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            9,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5896921,
+                        "duration": 4523
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            9,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 5910471,
+                        "duration": 2965
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            10,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 5940884,
+                        "duration": 8732
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            10,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 5959630,
+                        "duration": 3339
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            10,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 5970881,
+                        "duration": 8148
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            10,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 5993905,
+                        "duration": 8041
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            10,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6011462,
+                        "duration": 3083
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            11,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6039676,
+                        "duration": 3928
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            11,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6057115,
+                        "duration": 4324
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            11,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6069837,
+                        "duration": 2868
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            11,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6091031,
+                        "duration": 3750
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            11,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6108420,
+                        "duration": 3545
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            12,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6137721,
+                        "duration": 4201
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            12,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6150619,
+                        "duration": 8614
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            12,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6168786,
+                        "duration": 3003
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            12,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6190305,
+                        "duration": 3958
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            12,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6207913,
+                        "duration": 4073
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            13,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6238123,
+                        "duration": 4948
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            13,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6252480,
+                        "duration": 2981
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            13,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6269099,
+                        "duration": 3360
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            13,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6290830,
+                        "duration": 4112
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            13,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6303463,
+                        "duration": 7816
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            14,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6337405,
+                        "duration": 4519
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            14,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6351506,
+                        "duration": 3363
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            14,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6366785,
+                        "duration": 3685
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            14,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6389962,
+                        "duration": 4103
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            14,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6402940,
+                        "duration": 2796
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            15,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6431004,
+                        "duration": 8412
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            15,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6450513,
+                        "duration": 3794
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            15,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6462101,
+                        "duration": 8894
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            15,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6486145,
+                        "duration": 9150
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            15,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6505245,
+                        "duration": 3140
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            16,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6534443,
+                        "duration": 4070
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            16,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6552197,
+                        "duration": 4210
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            16,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6565235,
+                        "duration": 8334
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            16,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6588925,
+                        "duration": 7955
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            16,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6606766,
+                        "duration": 2961
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            17,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6643269,
+                        "duration": 4524
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            17,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6661719,
+                        "duration": 3810
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            17,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6677231,
+                        "duration": 3043
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            17,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6701285,
+                        "duration": 3832
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            17,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6719540,
+                        "duration": 3813
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            18,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6749822,
+                        "duration": 3901
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            18,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6768117,
+                        "duration": 4212
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            18,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6781314,
+                        "duration": 3089
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            18,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6802977,
+                        "duration": 3817
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            18,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6819961,
+                        "duration": 4302
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            19,
+                            "index"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "index",
+                        "returnType": "Int",
+                        "startOffset": 6850274,
+                        "duration": 4246
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            19,
+                            "timestamp"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "timestamp",
+                        "returnType": "Float",
+                        "startOffset": 6863485,
+                        "duration": 8135
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            19,
+                            "stocks"
+                        ],
+                        "parentType": "ExchangeData",
+                        "fieldName": "stocks",
+                        "returnType": "Bourses",
+                        "startOffset": 6880909,
+                        "duration": 2886
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            19,
+                            "stocks",
+                            "NASDAQ"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "NASDAQ",
+                        "returnType": "Float",
+                        "startOffset": 6902226,
+                        "duration": 3710
+                    },
+                    {
+                        "path": [
+                            "stockQuery",
+                            19,
+                            "stocks",
+                            "CAC40"
+                        ],
+                        "parentType": "Bourses",
+                        "fieldName": "CAC40",
+                        "returnType": "Float",
+                        "startOffset": 6914429,
+                        "duration": 8071
+                    }
+                ]
+            }
+        }
+    }
+}

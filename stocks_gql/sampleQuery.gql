@@ -1,0 +1,14 @@
+query stockQuery($count: Int!) {
+  stockQuery(count: $count) {
+		index
+    timestamp
+    stocks {
+      NASDAQ
+      CAC40
+    }
+  }
+#   Query Variables
+# {
+#   "count": 20
+# }
+}

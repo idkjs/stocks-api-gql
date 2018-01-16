@@ -1,0 +1,32 @@
+{ 
+    data: [
+        { id: 'AED',
+        name: 'United Arab Emirates Dirham',
+        min_size: '0.01000000'
+        },
+        { id: 'AFN', name: 'Afghan Afghani', min_size: '0.01000000'
+        },
+        { id: 'ALL', name: 'Albanian Lek', min_size: '0.01000000'
+        },
+        { id: 'AMD', name: 'Armenian Dram', min_size: '0.01000000'
+        },
+        { id: 'ANG',
+        name: 'Netherlands Antillean Gulden',
+        min_size: '0.01000000'
+        },
+        { id: 'AOA', name: 'Angolan Kwanza', min_size: '0.01000000'
+        },
+        { id: 'ARS', name: 'Argentine Peso', min_size: '0.01000000'
+        },
+        { id: 'AUD', name: 'Australian Dollar', min_size: '0.01000000'
+        },
+        { id: 'AWG', name: 'Aruban Florin', min_size: '0.01000000'
+        },
+        { id: 'AZN', name: 'Azerbaijani Manat', min_size: '0.01000000'
+        },
+        { id: 'BAM',
+        name: 'Bosnia and Herzegovina Convertible Mark',
+        min_size: '0.01000000'
+        }
+    ]
+}
